@@ -20,7 +20,8 @@ cd week3project/
 dfx help
 dfx canister --help
 ```
-
+![Screenshot](short1.png)
+![Screenshot](short2.png)
 ## Running the project locally
 
 If you want to test your project locally, you can use the following commands:
