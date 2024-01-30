@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "week3project_backend": {
+      "candid": "src/week3project_backend/week3project_backend.did",
+      "package": "week3project_backend",
+      "type": "rust"
+    },
+    "week3project_frontend": {
+      "dependencies": [
+        "week3project_backend"
+      ],
+      "source": [
+        "src/week3project_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

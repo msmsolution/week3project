@@ -1,0 +1,14 @@
+
+type Student = record {
+    name: text;
+    age: nat8;
+    class: nat8;
+};
+
+service : {
+    "get_student": (nat64) -> (opt Student) query;
+    
+    "insert_student": (nat64, Student) -> (opt Student);
+    
+    "get_song_titles": () -> (text);
+}
